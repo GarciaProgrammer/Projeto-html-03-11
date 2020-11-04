@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+        background-color: rgb(117, 48, 48);
+    }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"> Home</a>
+                </li>
+                <li>
+                    <a href="tabelas.html"> Tabelas</a>
+                </li>
+                <li>
+                    <a href="forms.html"> Formularios</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <MAIN>
+        <form action="forms.html">
+            <ul>
+                <li>
+                    <label for="Nome"> Nome </label>
+                    <input type="text" name="nome" id="nome" placeholder="Informe seu Nome.....">
+                </li>
+                <li>
+                    <label for="Idade"> Idade </label>
+                    <input type="number" name="idade" id="idade" placeholder="Informe sua idade.....">
+                </li>
+                <li>
+                    <label for="Sexo"> Sexo </label>
+                    <input type="radio" name="sexo" value="M"> Mascuilino
+                    <input type="radio" name="sexo" value="F"> Feminino
+                </li>
+                <li>
+                    <label for="Cidade"> Cidade</label>
+                    <select name="cidade" id="cidade">
+                        <option value=""> Selecione</option>
+                        <option value="Blumenau"> Blumenau</option>
+                        <option value="Floripa"> Floripa</option>
+                    </select>
+                </li>
+                <li>
+                    <textarea name="Descrição" id="Descrição" cols="30" rows="10" placeholder="Informe um texto"> Motivo de contato:
+
+                    </textarea>
+                </li>
+                <li>
+                    <input type="button" value="Enviar">
+                    <input type="button" value="Limpar">
+                </li>
+            </ul>
+        </form>
+    </MAIN>
+
+    <footer>
+        <p> Desenvolvido por Gabriel Garcia &copy;</p>
+    </footer>
+
+</body>
+
+</html>
