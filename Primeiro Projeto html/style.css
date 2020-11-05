@@ -49,6 +49,7 @@ header nav ul li a {
     font-weight: 900;
     font-size: 20px;    
     transition: all 0.5;
+    display: block;
 }
 
 header nav ul li a:hover {
@@ -63,8 +64,154 @@ nav::after{
     display: block;
 }
 
-ht{
+hr{
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+main {
+    position: relative;
+    width: 80vw;
+    min-height: 200px;
+    margin: 1em auto;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background-color: rgb(255, 16, 243);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background-color:rgb(113, 241, 182);
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.titulo-main{
+
+    display: block;
+    width: 100%;
+    padding: 1em;
+    border-bottom: 1px solid #fff;
+}
+
+/* section */
+
+#list-conteiner{
+    display: block;
+    width: 80vw;
+    margin: 5em auto;
+
+}
+
+section.box-list{
+    display: block;
+    width: 30vw;
+    margin: 0.5em auto 0.5em 7vw;
+    float: left;
+    min-height: 100px;
+    background-color: yellow;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 1em;
+}
+
+#list-container:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+footer{
+    display: block;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(218, 160, 160);
+    border-top: 1px solid rgb(72, 72, 226);
+    padding: 2em;
+    text-align: center;
+    text-shadow: blue ;
+    margin-top: 8em;
+}
+
+.table-fluid{
+    min-width: 300px;
+    padding: 0.5em;
+    margin: 1em auto;
+}
+
+
+.table-fluid.table-border td{
+    border-bottom: 1px solid black;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0.5em;
+}
+
+.table-fluid.table-hover tr:hover {
+    background-color: yellow;
+    cursor: -webkit-grab;
+    
+}
+
+form{
+    display: block;
+    margin: 5px auto;
+    width: 80%;
+    background-color: green;
+    color: rgb(250, 0, 0);
+}
+
+form ul{
+    list-style: none;
+    padding: 1em;
+    text-align: center;
+
+}
+
+form ul li {
+    margin: 0.5em;
+    padding: 0.2em;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form textarea{
+    min-height: 1em;
+    border-radius: 3px;
+    outline-color: red;
+    padding: 5px;
+}
+
+form input[type="text"] :focus,
+form input[type="number"] :focus,
+form select :focus,
+form textarea :focus{
+    background-color: black;
+    color: black;
+}
+
+.btn{
+    min-height: 1em;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn.success {
+    background-color: blue;
+    column-rule-color: yellow;
+}
+
+.btn.reset {
+    background-color: red;
+    color: rgb(7, 226, 255);
 }
