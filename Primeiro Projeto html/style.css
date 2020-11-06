@@ -127,7 +127,7 @@ section.box-list{
 }
 
 footer{
-    display: block;
+   display: block;
     width: 100%;
     position: relative;
     bottom: 0;
@@ -136,8 +136,8 @@ footer{
     border-top: 1px solid rgb(72, 72, 226);
     padding: 2em;
     text-align: center;
-    text-shadow: blue ;
-    margin-top: 8em;
+    text-shadow: blue;
+    margin-top: 14em;
 }
 
 .table-fluid{
